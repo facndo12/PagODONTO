@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.colorNav{
+    background-color: gainsboro;
+}
+
+body{
+    background-color: ghostwhite;
+}
+
+footer{
+    padding: 3em;
+    background-color: gainsboro;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.icon{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 2em;
+    height: 2em;
+    color: rgb(207, 207, 207);
+    font-size: 2,5em;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 20px;
+    background: #57aee0;
+    box-shadow: 12px 12px 24px #4070d6, -12px -12px 24px #4f95f0;
+}
+
+.heart:hover{
+    color: rgb(241, 98, 170);
+    cursor: pointer;
+}
+
+.trebol:hover{
+    color: rgb(70, 247, 125);
+    cursor: pointer;
+}
+
+.diamond:hover{
+    color: rgb(65, 180, 240);
+}
+
+.heart:active,
+.trebol:active,
+.diamond:active{
+    transform: scale(1.8);
+    transition: box-shadow .3s, transform 6s cubic-bezier(.5,4,1,2);
+    box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-inner img{
+    width: 600px;
+    height: 400px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
