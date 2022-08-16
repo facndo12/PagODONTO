@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.colorNav{
+    background-color: $colorHud;
+}
+
+body{
+    background-color: rgb(234, 234, 250);
+    
+}
+
+.titulo{
+    font-size: $fontSizeT;
+}
+
+p{
+    font-size: $fontSizeP;
+}
+
+footer{
+    padding: 3em;
+    background-color: $colorHud;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+
+    display: flex;
+    justify-content: center;
+}
