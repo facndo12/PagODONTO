@@ -1,3 +1,11 @@
 $colorHud: rgb(152, 207, 207);
 $fontSizeP: 20px;
 $fontSizeT: 35px;
+
+$tratamientos:(ortodoncia:rgb(86, 121, 218), sarro:rgb(80, 58, 131), sensibilidad:rgb(73, 86, 104));
+
+@each $tratamiento, $color  in $tratamientos {
+    .arreglo--#{tratamiento}{
+        background-color: $color;
+    }
+}
