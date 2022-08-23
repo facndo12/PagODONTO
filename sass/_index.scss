@@ -4,3 +4,29 @@
         height: 400px;
     }
 }
+
+.presentacion{
+    background-image: url(../images/fotoejemplodent.jpg);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column-reverse;
+
+    p {
+        font-size: 30px;
+        font-weight: 400;
+        background-color: $colorHud;     
+    }
+}
+
+.anuncios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-around;
+
+    img{
+        height: 240px;
+    }
+}
