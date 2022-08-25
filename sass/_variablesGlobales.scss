@@ -1,7 +1,13 @@
+// ----colores----
 $colorHud: rgb(152, 207, 207);
+$colorInfo: rgb(112, 151, 177);
+$colorBordes: rgb(85, 209, 188);
+
+// ----Tamaños fuente----
 $fontSizeP: 20px;
 $fontSizeT: 35px;
 
+// ----otros----
 $tratamientos:(ortodoncia:rgb(86, 121, 218), sarro:rgb(80, 58, 131), sensibilidad:rgb(73, 86, 104));
 
 @each $tratamiento, $color  in $tratamientos {

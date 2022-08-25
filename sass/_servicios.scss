@@ -1,8 +1,26 @@
 .info{
+    background-color: $colorInfo;
     div{
         img{
             width: 300px;
-            height: 250px;
+            height: 350px;
         }
+        p{
+            font-size: 17px;
+            justify-content: center;
+        }
+    }
+
+    &--ortodoncia{
+        @extend .info;
+        border: 10px solid $colorBordes;
+    }
+    &--sarro{
+        @extend .info;
+        border: 10px solid $colorBordes;
+    }
+    &--sensibilidad{
+        @extend .info;
+        border: 10px solid $colorBordes;
     }
 }

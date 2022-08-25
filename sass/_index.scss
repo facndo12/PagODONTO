@@ -1,12 +1,5 @@
-.index{
-    img{
-        width: 100%;
-        height: 400px;
-    }
-}
-
 .presentacion{
-    background-image: url(../images/fotoejemplodent.jpg);
+    background-image: url(../images/odontologafp.jpg);
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -26,7 +19,20 @@
     align-content: space-between;
     justify-content: space-around;
 
-    img{
-        height: 240px;
+}
+
+.card{
+    height: 30rem;
+    .card-text{
+        height: 12vh;
+    }
+    p{
+        font-size: 17px;
+    }
+    .btn{
+        height: 5vh;
+    }
+    .card-title{
+        font-size: 20px;
     }
 }

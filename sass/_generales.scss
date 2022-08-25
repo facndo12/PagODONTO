@@ -14,11 +14,19 @@ body{
 
 .titulo{
     font-size: $fontSizeT;
+    font-weight: bolder;
+    color: $colorHud;
+}
+
+.subtitulo{
+    font-weight: bold;
+    color: $colorHud;
 }
 
 p{
     font-size: $fontSizeP;
 }
+
 
 footer{
     padding: 3em;

@@ -26,6 +26,13 @@ body {
 
 .titulo {
   font-size: 35px;
+  font-weight: bolder;
+  color: rgb(152, 207, 207);
+}
+
+.subtitulo {
+  font-weight: bold;
+  color: rgb(152, 207, 207);
 }
 
 p {
@@ -41,13 +48,8 @@ footer {
   justify-content: center;
 }
 
-.index img {
-  width: 100%;
-  height: 400px;
-}
-
 .presentacion {
-  background-image: url(../images/fotoejemplodent.jpg);
+  background-image: url(../images/odontologafp.jpg);
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -66,8 +68,21 @@ footer {
   align-content: space-between;
   justify-content: space-around;
 }
-.anuncios img {
-  height: 240px;
+
+.card {
+  height: 30rem;
+}
+.card .card-text {
+  height: 12vh;
+}
+.card p {
+  font-size: 17px;
+}
+.card .btn {
+  height: 5vh;
+}
+.card .card-title {
+  font-size: 20px;
 }
 
 .carousel-inner img {
@@ -80,7 +95,32 @@ footer {
   justify-content: center;
 }
 
-.info div img {
+.info, .info--sensibilidad, .info--sarro, .info--ortodoncia {
+  background-color: rgb(112, 151, 177);
+}
+.info div img, .info--sensibilidad div img, .info--sarro div img, .info--ortodoncia div img {
   width: 300px;
-  height: 250px;
+  height: 350px;
+}
+.info div p, .info--sensibilidad div p, .info--sarro div p, .info--ortodoncia div p {
+  font-size: 17px;
+  justify-content: center;
+}
+.info--ortodoncia {
+  border: 10px solid rgb(85, 209, 188);
+}
+.info--sarro {
+  border: 10px solid rgb(85, 209, 188);
+}
+.info--sensibilidad {
+  border: 10px solid rgb(85, 209, 188);
+}
+
+.historia img {
+  width: 500px;
+  height: 600px;
+}
+.historia p {
+  font-size: medium;
+  color: black;
 }/*# sourceMappingURL=estilos.css.map */
