@@ -86,13 +86,37 @@ footer {
 }
 
 .carousel-inner img {
-  width: 50%;
-  height: 400px;
+  width: 40vw;
+  height: 100vh;
 }
 
 .video {
   display: flex;
   justify-content: center;
+}
+
+.carousel {
+  width: 40vw;
+  height: 100vh;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.galeria article {
+  flex-direction: column;
+}
+.galeria .row {
+  align-items: flex-start;
+  justify-content: center;
+}
+.galeria .video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .info, .info--sensibilidad, .info--sarro, .info--ortodoncia {
@@ -116,6 +140,15 @@ footer {
   border: 10px solid rgb(85, 209, 188);
 }
 
+.servicios {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
 .historia img {
   width: 500px;
   height: 600px;
@@ -123,4 +156,7 @@ footer {
 .historia p {
   font-size: medium;
   color: black;
+}
+.historia .row {
+  justify-content: space-evenly;
 }/*# sourceMappingURL=estilos.css.map */

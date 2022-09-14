@@ -24,3 +24,12 @@
         border: 10px solid $colorBordes;
     }
 }
+
+.servicios {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}

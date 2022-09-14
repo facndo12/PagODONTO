@@ -1,11 +1,36 @@
 .carousel-inner {
     img{
-    width: 50%;
-    height: 400px;
+    width: 40vw;
+    height: 100vh;
     }
 }
 
 .video{
     display: flex;
     justify-content: center;
+}
+
+.carousel{
+    width: 40vw;
+    height: 100vh;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    article{
+        flex-direction: column;
+    }
+    .row{
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
